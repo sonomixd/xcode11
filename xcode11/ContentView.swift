@@ -18,9 +18,9 @@ struct ContentView: View {
     
     /**
      
-    Case 1:  The user did nothing but entering it credentials into the Text Fields. Especially he didn’t start the authentication process by clicking on the login button. In this situation we can use the default view we created as it is and don’t need to modify anything.
+    Case 1: The user did nothing but entering it credentials into the Text Fields. Especially he didn’t start the authentication process by clicking on the login button. In this situation we can use the default view we created as it is and don’t need to modify anything.
      
-    Case 2: The user entered the authentication process by tapping the login button and it failed. In this case, we want to display a text saying that the entered information was wrong.
+    Case 2: The user  entered the authentication process by tapping the login button and it failed. In this case, we want to display a text saying that the entered information was wrong.
      
     Case 3: The user entered the authentication process by tapping the login button and it succeeded. In this case, we want to display a text saying the login was successful.
      
